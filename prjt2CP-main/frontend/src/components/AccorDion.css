@@ -1,0 +1,8 @@
+.AccordionItem {
+ font-size: 25px;
+  margin: 10px 10px;
+  /* cursor: pointer; */
+  padding: 10px;
+  box-sizing: border-box;
+  transition: all 0.3s;
+}

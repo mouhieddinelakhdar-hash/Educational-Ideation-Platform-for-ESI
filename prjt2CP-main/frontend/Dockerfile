@@ -1,0 +1,21 @@
+FROM node:18-alpine
+
+ARG VITE_GOOGLE_CLIENT_ID
+ARG VITE_API_DOMAIN
+
+ENV VITE_GOOGLE_CLIENT_ID=$VITE_GOOGLE_CLIENT_ID
+ENV VITE_API_DOMAIN=$VITE_API_DOMAIN
+
+WORKDIR /app
+
+COPY package.json .
+
+RUN npm install
+
+COPY . .
+
+RUN npm run build
+
+EXPOSE 8080
+
+CMD [ "npm", "run", "preview" ]
