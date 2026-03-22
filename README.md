@@ -28,4 +28,4 @@ The platform encourages collaboration, creativity, and structured ideation for e
 
 ```bash
 git clone https://github.com/mouhieddinelakhdar-hash/Educational-Ideation-Platform-for-ESI.git
-cd Educational-Ideation-Platform-for-ESI
+cd Educational-Ideation-Platform-for-ESI/prjt2CP-main
